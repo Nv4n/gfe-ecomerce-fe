@@ -1,0 +1,10 @@
+{
+    "sonarlint.connectedMode.project": {
+        "connectionId": "nv4n",
+        "projectKey": "Nv4n_angular-ai-tutor"
+    },
+    "better-todo-tree.tree.showCountsInTree": true,
+    "better-todo-tree.tree.disableCompactFolders": false,
+    "better-todo-tree.tree.showBadges": true,
+    "better-todo-tree.tree.scanMode": "workspace"
+}

@@ -1,6 +1,8 @@
 {
   "printWidth": 100,
   "singleQuote": true,
+  "tabWidth": 4,
+  "useTabs": true,
   "overrides": [
     {
       "files": "*.html",
@@ -8,5 +10,8 @@
         "parser": "angular"
       }
     }
+  ],
+  "plugins": [
+    "prettier-plugin-tailwindcss"
   ]
 }
