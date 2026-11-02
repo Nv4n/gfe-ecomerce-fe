@@ -1,10 +1,11 @@
 import { ApplicationConfig, provideBrowserGlobalErrorListeners } from '@angular/core';
 import { provideRouter } from '@angular/router';
+import { LucideShoppingBag, provideLucideIcons } from '@lucide/angular';
+import Aura from '@primeuix/themes/aura';
+import { MessageService } from 'primeng/api';
 import { providePrimeNG } from 'primeng/config';
 import { environment } from '../environments/environment.development';
 import { routes } from './app.routes';
-import { LucideShoppingBag, provideLucideConfig, provideLucideIcons } from '@lucide/angular';
-import Aura from '@primeuix/themes/aura';
 
 export const appConfig: ApplicationConfig = {
 	providers: [
@@ -26,5 +27,6 @@ export const appConfig: ApplicationConfig = {
 			},
 		}),
 		provideLucideIcons(LucideShoppingBag),
+		MessageService
 	],
 };
