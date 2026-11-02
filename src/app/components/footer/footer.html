@@ -1,1 +1,75 @@
-<p>footer works!</p>
+<footer class="flex flex-col gap-16">
+	<div class="flex justify-between">
+		<div class="flex flex-col">
+			<h2 class="text-xl font-semibold text-neutral-900">Join our newsletter</h2>
+			<span class="text-neutral-600"
+				>We'll send you a nice letter once per week. No spam.</span
+			>
+		</div>
+
+		<app-newsletter-form></app-newsletter-form>
+	</div>
+	<div class="flex justify-between gap-16">
+		<div class="grow">
+			<div class="flex w-xs flex-col gap-8">
+				<app-logo />
+				<span class="text-neutral-600"
+					>Craft stunning style journeys that weave more joy into every thread.</span
+				>
+			</div>
+		</div>
+
+		<div class="flex grow justify-between gap-8 text-base font-medium text-neutral-600">
+			<figure class="flex grow flex-col gap-4">
+				<figcaption class="text-sm font-normal text-neutral-500 capitalize">
+					SHOP CATEGORIES
+				</figcaption>
+				<ul class="flex flex-col gap-3">
+					<li><a href="#">Unisex</a></li>
+					<li><a href="#">Women </a></li>
+					<li><a href="#">Men</a></li>
+				</ul>
+			</figure>
+			<figure class="flex grow flex-col gap-4">
+				<figcaption class="text-sm font-normal text-neutral-500 capitalize">
+					SHOP COLLECTIONS
+				</figcaption>
+				<ul class="flex flex-col gap-3">
+					<li><a href="#">Latest arrivals</a></li>
+					<li><a href="#">Urban Oasis </a></li>
+					<li><a href="#">Cozy Comfort </a></li>
+					<li><a href="#">Fresh Fusion </a></li>
+				</ul>
+			</figure>
+		</div>
+	</div>
+
+	<div class="w-full">
+		<p-divider class="before:border-neutral-200" />
+		<div class="flex justify-between">
+			<span class="text-neutral-500">© 2024 StyleNest, Inc. All rights reserved.</span>
+			<div class="flex justify-normal gap-6">
+				<svg
+					class="size-6 cursor-pointer text-neutral-400 hover:text-neutral-500"
+					data-p-icon="youtube"
+				></svg>
+				<svg
+					class="size-6 cursor-pointer text-neutral-400 hover:text-neutral-500"
+					data-p-icon="instagram"
+				></svg>
+				<svg
+					class="size-6 cursor-pointer text-neutral-400 hover:text-neutral-500"
+					data-p-icon="facebook"
+				></svg>
+				<svg
+					class="size-6 cursor-pointer text-neutral-400 hover:text-neutral-500"
+					data-p-icon="github"
+				></svg>
+				<svg
+					class="size-6 cursor-pointer text-neutral-400 hover:text-neutral-500"
+					data-p-icon="twitter"
+				></svg>
+			</div>
+		</div>
+	</div>
+</footer>
