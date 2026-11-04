@@ -1,0 +1,11 @@
+{
+    "servers": {
+        "primeng": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@primeng/mcp"
+            ]
+        }
+    }
+}

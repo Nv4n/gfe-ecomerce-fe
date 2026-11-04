@@ -6,5 +6,15 @@
     "better-todo-tree.tree.showCountsInTree": true,
     "better-todo-tree.tree.disableCompactFolders": false,
     "better-todo-tree.tree.showBadges": true,
-    "better-todo-tree.tree.scanMode": "workspace"
+    "better-todo-tree.tree.scanMode": "workspace",
+    "chat.mcp.serverSampling": {
+        "gfe-ecomerce-fe/.vscode/mcp.json: primeng": {
+            "allowedModels": [
+                "agent-host-copilotcli:ollama-models/qwen2.5-coder:1.5b",
+                "agent-host-copilotcli:ollama-models/qwen3.5:2b",
+                "agent-host-copilotcli:ollama-models/qwen3.5:4b",
+                "agent-host-copilotcli:ollama-models/qwen3.5:9b"
+            ]
+        }
+    }
 }
