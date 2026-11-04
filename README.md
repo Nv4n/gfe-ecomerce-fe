@@ -57,3 +57,24 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+## Tasks
+
+> ### TODO
+- checkout-section-figma
+- order-success-section-figma
+- product-reviews
+- product-specifications-section-figma
+- shopping-cart-section-figma
+- collections-grid-section-figma
+- product-details-section
+- hero-section-simple
+- product-grid-section
+
+> ### For revision
+- features-section-grid-figma
+- footer
+- navbar
+
+> ### Done
