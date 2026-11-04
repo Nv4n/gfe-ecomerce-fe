@@ -1,1 +1,17 @@
-<p>features-section-grid works!</p>
+<div class="flex flex-col items-center gap-8 text-center text-pretty">
+	<div class="max-w-2xl ">
+		<span class="text-brand-primary font-semibold">Premium abstract images</span>
+		<h2 class="text-4xl mb-4 font-semibold">Easy access to top quality images</h2>
+		<p class="text-neutral-500">
+			In a world where storytelling constantly evolves, we lead with groundbreaking images
+			designed for your presentation excellence.
+		</p>
+	</div>
+
+	<div class="grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+		@for (feat of features; track $index) {
+			<!-- <svg lucideBrush class="size-4.5 text-brand-primary"></svg> -->
+			<app-feature-block [icon]="feat.icon" [title]="feat.title" [content]="feat.content" />
+		}
+	</div>
+</div>

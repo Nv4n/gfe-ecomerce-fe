@@ -1,11 +1,9 @@
-import { Component, input, Input, TemplateRef } from '@angular/core';
-import { LucideDownload, LucideIcon } from '@lucide/angular';
-import { BadgeModule } from 'primeng/badge';
+import { Component, input } from '@angular/core';
+import { LucideDynamicIcon, LucideIcon } from '@lucide/angular';
 import { OverlayBadgeModule } from 'primeng/overlaybadge';
-import { NgTemplateOutlet } from '@angular/common';
 
 @Component({
-	imports: [OverlayBadgeModule, NgTemplateOutlet],
+	imports: [OverlayBadgeModule, LucideDynamicIcon],
 	selector: 'app-feature-block',
 	styleUrl: './feature-block.css',
 	templateUrl: './feature-block.html',
