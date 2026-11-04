@@ -7,6 +7,8 @@ import {
 	LucideHandCoins,
 	LucideIcon,
 	LucideRefreshCw,
+	LucideRotateCw,
+	LucideUserGroup,
 	LucideUserRoundGroup,
 } from '@lucide/angular';
 import { OverlayBadgeModule } from 'primeng/overlaybadge';
@@ -19,23 +21,12 @@ interface Feature {
 }
 
 @Component({
-	imports: [
-		LucideDownload,
-		LucideBrush,
-		LucideCopyright,
-		LucideUserRoundGroup,
-		LucideRefreshCw,
-		LucideHandCoins,
-		FeatureBlock,
-		OverlayBadgeModule,
-		NgTemplateOutlet,
-	],
+	imports: [FeatureBlock, OverlayBadgeModule],
 	selector: 'app-features-section-grid',
 	styleUrl: './features-section-grid.css',
 	templateUrl: './features-section-grid.html',
 })
 export class FeaturesSectionGrid {
-
 	features: Feature[] = [
 		{
 			icon: LucideDownload,
@@ -49,29 +40,27 @@ export class FeaturesSectionGrid {
 			content:
 				'No AI, no generic images. Crafted from various chemicals, fabrics, clouds, or even particles as small as dust.',
 		},
-				{
-			icon: LucideBrush,
-			title: 'Purely Handcrafted',
+		{
+			icon: LucideCopyright,
+			title: 'All Are Under licensed',
 			content:
-				'No AI, no generic images. Crafted from various chemicals, fabrics, clouds, or even particles as small as dust.',
+				'The only limitation with these abstract images is that you are not able to sell them in any form, whether digital or hard copy (such as paintings or prints on paper).',
 		},
-				{
-			icon: LucideBrush,
-			title: 'Purely Handcrafted',
-			content:
-				'No AI, no generic images. Crafted from various chemicals, fabrics, clouds, or even particles as small as dust.',
+		{
+			icon: LucideHandCoins,
+			title: 'Cancel Anytime',
+			content: "Subscribe at your own pace, and cancel when you feel it's enough.",
 		},
-				{
-			icon: LucideBrush,
-			title: 'Purely Handcrafted',
-			content:
-				'No AI, no generic images. Crafted from various chemicals, fabrics, clouds, or even particles as small as dust.',
+		{
+			icon: LucideUserGroup,
+			title: 'Empowering For Team',
+			content: 'We support multiple seats at once, requiring only a single payment.',
 		},
-				{
-			icon: LucideBrush,
-			title: 'Purely Handcrafted',
+		{
+			icon: LucideRotateCw,
+			title: 'No Limitations',
 			content:
-				'No AI, no generic images. Crafted from various chemicals, fabrics, clouds, or even particles as small as dust.',
+				'Use as many as you want, from Dribbble presentations to PowerPoint presentations.',
 		},
 	];
 }
