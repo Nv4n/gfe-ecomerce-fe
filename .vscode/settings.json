@@ -15,6 +15,14 @@
                 "agent-host-copilotcli:ollama-models/qwen3.5:4b",
                 "agent-host-copilotcli:ollama-models/qwen3.5:9b"
             ]
+        },
+        "gfe-ecomerce-fe/.vscode/mcp.json: angular-cli": {
+            "allowedModels": [
+                "agent-host-copilotcli:ollama-models/qwen2.5-coder:1.5b",
+                "agent-host-copilotcli:ollama-models/qwen3.5:2b",
+                "agent-host-copilotcli:ollama-models/qwen3.5:4b",
+                "agent-host-copilotcli:ollama-models/qwen3.5:9b"
+            ]
         }
     }
 }
