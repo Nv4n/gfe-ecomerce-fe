@@ -69,12 +69,12 @@ For more information on using the Angular CLI, including detailed command refere
 - shopping-cart-section-figma
 - collections-grid-section-figma
 - product-details-section
-- hero-section-simple
 - product-grid-section
 
 > ### For revision
 - features-section-grid-figma
 - footer
 - navbar
+- hero-section-simple
 
 > ### Done
